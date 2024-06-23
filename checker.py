@@ -6,7 +6,7 @@ from image_preprocessing import preprocess_image
 from PIL import Image
 import random
 
-from solution.model import CaptchaModel, predict_symbol
+from model import CaptchaModel, predict_symbol
 
 transform = transforms.Compose([
             transforms.Grayscale(num_output_channels=1),
